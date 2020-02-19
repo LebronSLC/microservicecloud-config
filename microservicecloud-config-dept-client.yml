@@ -31,7 +31,7 @@ spring:
 eureka:
   client: #客户端服务注册到eureka的服务列表中
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka 单机版
+      defaultZone: http://eureka7001.com:7001/eureka
 #      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
     instance-id: dept-8001.com #自定义服务名称（status列）
@@ -70,7 +70,7 @@ spring:
 eureka:
   client: #客户端服务注册到eureka的服务列表中
     service-url:
-      defaultZone: http://eureka7001.com:7001/eureka 单机版
+      defaultZone: http://eureka7001.com:7001/eureka
   #      defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka,http://eureka7003.com:7003/eureka
   instance:
     instance-id: dept-8001.com #自定义服务名称（status列）
